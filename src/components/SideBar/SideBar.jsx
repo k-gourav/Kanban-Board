@@ -14,6 +14,7 @@ const SideBar = () => {
                     <li><Link to="/board/1">Product Idea</Link></li>
                     <li><Link to="/board/2">Roadmap</Link></li>
                     <li><Link to="/board/3">Marketing Plan</Link></li>
+                    <li><Link to="/board/3">Execution Plan</Link></li>
                 </ul>
             </div>
             </nav>
