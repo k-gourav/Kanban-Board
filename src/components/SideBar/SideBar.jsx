@@ -16,10 +16,15 @@ const SideBar = () => {
                     <li><Link to="/board/3">Marketing Plan</Link></li>
                     <li><Link to="/board/3">Execution Plan</Link></li>
                 </ul>
+                <button>+ Create New Board</button>
             </div>
             </nav>
-
-        </section>
+            <div className={styles.toggle__section}>
+              <img src="" alt="" />
+              <img src="" alt="" />
+              <img src="" alt="" />
+            </div>
+          </section>
 
     </aside>
   )
