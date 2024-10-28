@@ -1,7 +1,7 @@
 import React, { Suspense } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
-const DashboardPage = React.lazy(() => import("../pages/DashboardPage"));
+const TaskBarPage = React.lazy(() => import("../pages/TaskbarPage"));
 
 const AppRoutes = () => {
   return (
