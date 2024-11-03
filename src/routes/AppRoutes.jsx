@@ -8,7 +8,7 @@ const AppRoutes = () => {
     <Router>
       <Suspense fallback={<div>Loading...</div>}>
         <Routes>
-          <Route path="/" element={<DashboardPage />} />
+          <Route path="/" element={<TaskBarPage />} />
         </Routes>
       </Suspense>
     </Router>
