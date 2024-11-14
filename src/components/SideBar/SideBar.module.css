@@ -1,0 +1,37 @@
+.sidebar__container, .nav__bar, .nav__items, #nav__links{
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar__container{
+    justify-content: space-between;
+    min-height: 100vh;
+    background-color: rgba(178, 178, 244, 0.204);
+    padding: 2rem 1.5rem;
+    width: 16vw;
+}
+.newboard__btn{
+    border-radius: 25px;
+    padding: 0.8rem 1rem;
+    border: none;
+    background-color:rgba(95, 95, 234, 0.8);
+    color: #fff;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    margin-top: 0.8rem;
+    font-family: inherit;
+    cursor: pointer;
+    font-size: 0.94rem;
+}
+/* .nav__bar{
+
+} */
+.nav__items{
+    gap: 1.5rem;
+    margin-top: 1rem;
+}
+#nav__links{
+    list-style-type: none;
+    gap: 1rem;
+}

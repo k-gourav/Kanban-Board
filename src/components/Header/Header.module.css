@@ -1,0 +1,30 @@
+.header__container{
+    display: flex;
+    justify-content: space-between;
+    width: 82vw;
+    padding: 1.5rem;
+}
+.board__name{
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.dropdown__btn, .edit__btn{
+    border: none;
+    background: transparent;
+    display: flex;
+    align-items: center;
+}
+#edit__icon{
+    transform: rotate(90deg);
+}
+.task__adder{
+    display: flex;
+    gap: 1.1rem;
+}
+.taskadd__btn{
+    border-radius: 25px;
+    padding: 0.8rem 1rem;
+    border: none;
+}
