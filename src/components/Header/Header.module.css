@@ -1,6 +1,7 @@
 .header__container{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     width: 82vw;
     padding: 1.5rem;
 }
@@ -9,7 +10,6 @@
     gap: 12px;
     align-items: center;
 }
-
 .dropdown__btn, .edit__btn{
     border: none;
     background: transparent;
